@@ -35,8 +35,8 @@ body {
 	text-decoration: none;
 }
 .aboutme {
-	float: left;
-	max-width: 80%;
+	float: center;
+	max-width: 100%;
 }
 .contact {
 	float: right;
