@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-color:silver;
+}
+.header h1{
+	text-align:center;
+}
+.links ul{
+	text-align:center;
+	border: 1px solid black;
+	background-color:grey;
+	border-radius:100px;
+	
+}
+.links li{
+	list-style-type:none;
+	color: blue;
+	text-decoration: underline;
+	display: inline;
+	float:center;
+}
+.main{
+	background-color:#CCC;
+}
