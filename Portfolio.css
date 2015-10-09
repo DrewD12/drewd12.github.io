@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html{
-	background-color:silver;
+	background-color:#3664c6;
 }
 .header h1{
 	text-align:center;
@@ -10,36 +10,36 @@ html{
 .links ul{
 	text-align:center;
 	border: 1px solid black;
-	background-color:#333;
+	background-color:#5b7fcc;
 	border-radius:100px;
 	height: 40px;
 }
 .links li{
 	list-style-type:none;
-	color: #333;
+	color: black;
 	text-decoration:none;
 	display: inline-block;
 	float:center;
 	border:1px solid black;
 	border-radius: 5px;
 	margin: 8px;
-	background-color:grey;
+	background-color:#aac1f1;
 	padding-bottom:10px;
 	width:100px;
 	height:10px;
 }
 .links a{
-	color:#000;
+	color:black;
 	text-decoration:none;
 }
 .main{
-	background-color:#CCC;
+	background-color:#d9e2f4;
 	float: right;
 	height:400px;
 	width:1200px;
 }
 .creations{
-	background-color: white;
+	background-color: #3b61b2;
 	float: left;
 	height:400px;
 	width:150px;
@@ -51,9 +51,9 @@ html{
 	display:block;
 	height: 40px;
 }
- th{
+th{
 	border: 1px solid black;
-	background-color:#CCC;
+	background-color:#546ea4;
 	border-radius: 20px;
 	padding:5px;
 	line-height:30px;
@@ -65,4 +65,8 @@ html{
 	padding-right:10px;
 	padding-left:10px;
 	font-size:18px;
+}
+.creations a{
+ 	text-decoration:none;
+	color:black;
 }
