@@ -37,9 +37,11 @@ html{
 	float: right;
 	height:400px;
 	width:1200px;
+	padding-right:10px;
+	padding-left:10px;
 }
 .creations{
-	background-color: #3b61b2;
+	background-color:#d9e2f4;
 	float: left;
 	height:400px;
 	width:150px;
@@ -62,11 +64,16 @@ th{
 	text-align:center;
 }
 .main p{
-	padding-right:10px;
-	padding-left:10px;
 	font-size:18px;
 }
 .creations a{
  	text-decoration:none;
 	color:black;
+}
+h2{
+	text-align:center;
+}
+li{
+	text-align:center;
+	list-style-type: none;
 }
