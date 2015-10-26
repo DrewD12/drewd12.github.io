@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html{
-	background-color:#3664c6;
+	background-color:#ADC2EB;
 }
 .header h1{
 	text-align:center;
@@ -88,7 +88,6 @@ li{
 	text-decoration: none;
 	background-color: white;
 	border: 1px solid black;
-	border-radius:5px;	
 }
 .links a:hover {
 	color:#3664c6 ;
