@@ -1,0 +1,133 @@
+@charset "utf-8";
+.clearfix:after{
+/*top navigatiion dropdown*/
+	display:block;
+	clear:both;
+	width:100%;
+}
+/*Menu Outline*/
+.menu-wrap{
+	width:100%;
+}
+.menu{
+	text-align:center;
+}
+.menu li{
+	list-style:none;
+	transition:all liner 0.15s;
+}
+.menu a{
+	transistion: all linear 0.15s;
+	color:#fcc;
+	text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a{
+	text-decoration:none;
+}
+/*Top Level*/
+.menu > ul  {
+	display: table;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+.menu > ul > li {
+	position:relative;
+	display:table-cell;
+	margin:0px;
+	padding:0;
+	width:10%;
+	border-left: solid #a65300;
+	text-align:center;
+	height:40px;
+	vertical-align:bottom;
+}
+.menu > ul > li:hover, .menu > ul > .current-item > a{
+	background: #a67c52;
+}
+/*bottom level*/
+.menu li:hover .sub-menu{
+	z-index:1;
+	opacity:1;
+}
+.sub-menu {
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:100%;
+	left:0px;
+	z-index:-1;
+	opacity:0;
+	tranastion: opacity linear 0.15s;
+	background: #a67c52;
+	text-align: center;
+	border-top:solid #ac5300 thick;
+}
+.sub-menu li{
+	display:table;
+	text-align:center;
+	width:80%;
+	border-top:solid #9f711a thin;
+	margin:auto;
+}
+.sub-menu li{
+	display:table;
+	text-align: center;
+	width: 100%;
+	border-top:0;
+	margin:auto;
+}
+.sub-menu a {
+	display:table-cell;
+	hieght:40px;
+	vertical-align:middle;
+	width:100%;
+	text-align:center;
+}
+.sub-menu li:hover, .sub-menu .current-item a {
+	background-color:#754c24;
+}
+.sub-menu li:hover .sub-sub-menu{
+	z-index:1;
+	opacity:1;
+}
+.sub-sub-menu {
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:-5px;
+	left:100%;
+	z-index:-1;
+	opacity:0;
+	tranastion: opacity linear 0.15s;
+	background: #a67c52;
+	text-align: left;
+	border-top: solid #ac5300 thick;
+}
+.sub-sub-menu li{
+	display:table;
+	text-align:left;
+	width:80%;
+	border-top:solid #9f711a thin;
+	margin:auto;
+}
+.sub-sub-menu li{
+	display:table;
+	text-align:left;
+	width: 100%;
+	border-top:0;
+	margin:auto;
+}
+.sub-sub-menu a {
+	display:table-cell;
+	hieght:40px;
+	vertical-align:middle;
+	width:100%;
+	text-align:left;
+}
+.sub-sub-menu li:hover, .sub-sub-menu .current-item a {
+	background-color:#754c24;
+}
+
+	
+	
