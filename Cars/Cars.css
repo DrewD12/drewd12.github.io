@@ -102,6 +102,9 @@ body{
 	text-align:center;
 	text-decoration:none;
 }
+#footer{
+	font-size:10px;
+}
 .menu-wrap{
 	width:100%;
 }
