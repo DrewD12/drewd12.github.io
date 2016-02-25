@@ -57,6 +57,12 @@ body{
 	position:relative;
 	top:17px;
 }
+button{
+	hieght:50px;
+	float:left;
+	position:relative;
+	top:27px;
+}
 #two{
 	height:50px;
 	width:50px;
@@ -72,7 +78,7 @@ body{
 	width: 100%;
 	display: block;
 	height:75px;
-	font-size:12px;
+	font-size:10px;
 }
 #content {
 	clear: both;
@@ -222,6 +228,7 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	font-size:12px;
 }
 #content {
 	clear: both;
@@ -269,6 +276,7 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	font-size:12px;
 }
 #content {
 	clear: both;
@@ -276,6 +284,10 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+}
+#piccon{
+	height:350px;
+	width:550px;
 }
 #pic{
 	height:200px;

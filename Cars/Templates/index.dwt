@@ -34,9 +34,9 @@ Do the following if you're using your customized build of modernizr (http://www.
 <html background="https://www.colourbox.com/preview/6798069-dangerous-turn-abstract-road-background-with-tires-tracks-on-dark-asphalt.jpg"/>
 <div class="gridContainer clearfix">
   <div id="header">
-<a id="one" href="Index.html"><img id="one"src="../lambo.jpg"
+<button><a id="one" href="Index.html"><img id="one"src="../lambo.jpg"
 
-alt='Red Lambo clip art'/></a>
+alt='Red Lambo clip art'/></a></button>
         <h1>Super Cars</h1>
        <a id="two" href="
 Images.html"><img id="two" src="https://openclipart.org/download/185046/camera-icon.svg" /></a>
@@ -58,16 +58,16 @@ Images.html"><img id="two" src="https://openclipart.org/download/185046/camera-i
                     	<ul class="sub-menu">
                         	<li><a href="Far-1.html">Enzo</a>
                             </li>
-                            <li><a href="Far-2.html">La Ferrari</a>
+                            <li><a href="Far-2.html">LaFerrari</a>
                             </li>
                            </ul>
                     </li>
             	<li>
-                	<a href="#">Buggati</a>
+                	<a href="#">Bugatti</a>
                     	<ul class="sub-menu">
-                        	<li><a href="Bug-1.html">Buggati SS</a>
+                        	<li><a href="Bug-1.html">Bugatti SS</a>
                             </li>
-                            <li><a href="Bug-2.html">Buggati Veyron</a>
+                            <li><a href="Bug-2.html">Bugatti Vitese</a>
                         </ul>
                     </li>
             	<li>
