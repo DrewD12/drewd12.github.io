@@ -34,7 +34,9 @@ img, object, embed, video {
 	padding-left: 0.7583%;
 	padding-right: 0.7583%;
 }
-
+body{
+	background-image:url(http://tipministries.com/wp-content/uploads/2015/11/Grey-Background-48.jpg)
+}
 #header {
 	clear: both;
 	float: left;
@@ -166,6 +168,14 @@ img, object, embed, video {
 }
 #right2 img{
 	height:150px;
+}
+#bones{
+	margin:10px;
+}
+#ref{
+	margin:10px;
+	text-align:center;
+	color:black;
 }
 
 

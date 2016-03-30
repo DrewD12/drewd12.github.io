@@ -30,7 +30,6 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!-- TemplateEndEditable -->
 </head>
 <body>
-<body background="http://tipministries.com/wp-content/uploads/2015/11/Grey-Background-48.jpg">
 <div class="gridContainer clearfix">
   <div id="header">
     	<h1>JFK Assassination Conspiracy Theory</h1>
@@ -38,29 +37,29 @@ Do the following if you're using your customized build of modernizr (http://www.
   <div id="menu1">
     	<ul>
         	<li>
-            	<a href = "#">Home</a>
+            	<a href = "index.html">Home</a>
             </li>
             <li>
             	<a href = "#">My Opinion</a>
             </li>    
             <li>
-            	<a href = "#">References</a>
+            	<a href = "References.html">References</a>
             </li>
             </ul>
     </div>
   <div id="menu2">
     	<ul>
         	<li>
-            	<a href = "#">Warren Commission</a>
+            	<a href = "Warren.html">Warren Commission</a>
             </li>
             <li>
-            	<a href = "#">HSCA</a>
+            	<a href = "HSCA.html">HSCA</a>
             </li>    
             <li>
-            	<a href = "#">Public Opinon</a>
+            	<a href = "POpinion.html">Public Opinon</a>
             </li>
             <li>
-            	<a href = "#">Shows/Movies</a>
+            	<a href = "Media.html">Shows/Movies</a>
             </li>
            </ul>
 	</div>
@@ -68,7 +67,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     <!-- TemplateBeginEditable name="EditRegion1" -->
     	<div id="left">
       		<h3>John F. Kenedy</h3>
-            	<p> John F. Kenedy or JFK for short was born May 29 1917 and was assassinated Novemeber 22 1963. JFK was the United States 35th president, he was inaugurated in 1960 which means he only served one term. During his term he did many great things, one of which was win the Space Race against Russia.
+            	<p> John F. Kenedy or JFK for short was born May 29 1917 and was assassinated Novemeber 22 1963. JFK was the United States 35th president, he was inaugurated in 1960 which means he only served one term. During his term he did many great things, one of which was win the Space Race against Russia.</p>
     	</div>
    	  	<div id="right">
       		<img src = "http://i.lv3.hbo.com/assets/images/documentaries/jfk-in-his-own-words/jfk-in-his-own-words-1024.jpg"/>
