@@ -122,6 +122,7 @@ body{
 	width: 100%;
 	display: block;
 	height:150px;
+	overflow:scroll;
 }
 #left1 {
 	clear: both;
@@ -146,6 +147,7 @@ body{
 	height:150px;
 	position:relative;
 	top:-150px;
+	overflow: scroll;
 }
 
 #left2 {
@@ -155,6 +157,7 @@ body{
 	width: 100%;
 	display: block;
 	height:150px;
+	overflow: scroll;
 }
 
 #right2 {
@@ -177,6 +180,20 @@ body{
 	text-align:center;
 	color:black;
 }
+#opinion{
+	text-align:center;
+	margin:10px;
+	font-size:14px;
+}
+#pics{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:100px;
+}
+	
 
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -294,6 +311,13 @@ body{
 #right2 img{
 	height:200px;
 }
+#pics{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -401,6 +425,7 @@ body{
 	width: 49.1525%;
 	display: block;
 	height:200px;
+	overflow: scroll;
 }
 #left2 {
 	clear: both;
@@ -409,6 +434,7 @@ body{
 	width: 49.1525%;
 	display: block;
 	height:200px;
+	overflow:scroll;
 }
 #right2 {
 	clear: none;
@@ -417,8 +443,16 @@ body{
 	width: 49.1525%;
 	display: block;
 	height:200px;
+	
 }
 #right2 img {
 	height:200px;
+}
+#pics {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
 }
 }
