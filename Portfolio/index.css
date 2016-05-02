@@ -1,0 +1,559 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+body{
+	background-image:url(http://static.wixstatic.com/media/56e52f_f0d376818f3f423790c30f4f17795346.jpg);
+}
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86.45%;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	color:white;
+	background-color:black;
+	padding-left:20px;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display:inline-block;
+	background-color:black;
+}
+#menu ul{
+	text-decoration:none;
+	list-style-type:none;
+	text-align:center;
+	posistion:relative;
+}
+#menu li{
+	display:inline;
+	margin: 20px;
+	float:right;
+	padding-right:30px;
+	color:white;
+}
+#menu a{
+	text-decoration:none;
+	color:white;
+}
+#menu a:hover{
+	color:#bfbfbf;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#one {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:200px;
+	margin:25px;
+	background-image:url(dropdown.PNG);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+#one:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+.trans p{
+	padding-left:10px;
+	position:relative;
+	top:-10px;
+	list-style-type:none;
+	color:black;
+	text-decoration:none;
+	font-size:15px;
+}
+.trans a {
+    text-decoration:none;
+}
+
+#two {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:200px;
+	margin:25px;
+	top:200px;
+	background-image:url(portfolio.PNG);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+#two:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#three {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:200px;
+	margin:25px;
+	background-image:url(fluidgrid.PNG);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+#three:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#four {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:200px;
+	margin:25px;
+	background-image:url(holiday.PNG);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+#four:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#five {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:200px;
+	margin:25px;
+	background-image:url(JFK.PNG);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+#five:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#six {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:200px;
+	margin:25px;
+	background-image:url(cars.PNG);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+#six:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+div.trans{
+	opacity:0;
+	filter:alpha(opacity=0);
+	position:relative;
+	height:200px;
+	width:340px;
+}
+div.trans:hover{
+	opacity: 0.6;
+  	filter: alpha(opacity=60);
+}
+#footer {
+	clear: both;
+	margin-left:-100px;
+	background-color:black;
+	height:300px;
+	position:relative;
+	right:100px;
+	padding-left:300px;
+	top:200px;
+	color:white;
+}
+#footer img{
+	position:relative;
+	right:250px;
+	height:200px;
+	top:50px;
+}
+#footer h2{
+	position:relative;
+	top:-175px;
+	right:20px;
+}
+#footer p{
+	position:relative;
+	top:-150px;
+	margin:15px;
+	right:35px;
+	width:900px;
+}
+#slideshow {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#top {
+	clear: both;
+	float: left;
+	margin-left:-100px;
+	width: 1000px;
+	background-color:black;
+	height:75px;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#one {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#two {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#three {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#four {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#five {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#six {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#slideshow {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#top {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 38.7755%;
+	display: block;
+	posisition:relative;
+	margin-left:100px;
+}
+#menu {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 38.7755%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#one {
+	clear: both;
+	float: left;
+	margin-left:  10.204%;
+	width: 38.7755%;
+	display: block;
+}
+
+#one img:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#two {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 38.7755%;
+	display: block;
+}
+#two img:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#three {
+	clear: both;
+	float: left;
+	margin-left: 10.204%;
+	width: 38.7755%;
+	display: block;
+}
+#three img:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#four {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 38.7755%;
+	display: block;
+}
+#four img:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#five {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 38.7755%;
+	display: block;
+}
+#five img:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#six {
+	clear: both;
+	float: left;
+	margin-left: 10.204%;
+	width: 38.7755%;
+	display: block;
+}
+#six img:hover{
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transfrom-origin: 50% 50%;
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#slideshow {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#top {
+	clear: both;
+	float: left;
+	margin-left: -100px;
+	width: 125%;
+	display: block;
+	posistion:relative;
+	right:100px;
+	
+}
+}
+/*
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.background {
+  background: url(klematis.jpg) repeat;
+
+}
+
+div.transbox {
+  margin: 0px;
+  background-color: grey;
+  border: 1px solid;
+opacity:0;
+filter:alpha(opacity=0);
+  
+}
+
+div.transbox:hover {
+
+opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */}
+/*
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+</div>
+
+</body>
+</html>
+*/
