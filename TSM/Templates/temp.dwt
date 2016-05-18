@@ -1,0 +1,42 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../index.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+
+
+</head>
+<body>
+<!-- TemplateBeginEditable name="head" -->
+	<div class="gridContainer clearfix">
+ 	<div id="title"><a href = "index.html"> <img src="../TSM.jpg"></a><img id ="one" src="../TSM1.jpg"><img id="two" src="../TSM2.jpg"></div>
+   	<div id="Dyrus1"><a href ="#"><img src="../Dyrus.jpg" width="300" height="400"></a></div>
+	<div id="bios"><p>Marcus Hill (born March 30, 1992), more commonly known by his gaming handle Dyrus, is an American retired professional player of the multiplayer online battle arena (MOBA) game League of Legends and streamer on Twitch[2] where his live streams commonly attract a viewer count of over 30,000.[3] At the time of his retirement, Dyrus was the top laner for Team SoloMid (TSM). With TSM, he won several League of Legends Championship Series North American titles and appeared in several League of Legends World Championships. He retired from competitive play after the 2015 League of Legends World Championships.</p></div>
+<!-- TemplateEndEditable -->
+</div>
+</body>
+</html>

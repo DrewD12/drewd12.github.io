@@ -45,18 +45,15 @@ body{
 	display: block;
 	color:white;
 	background-color:black;
-	padding-left:150px;
+	padding-left:20px;
 }
 #menu {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 700px;
+	width: 100%;
 	display:inline-block;
 	background-color:black;
-	position:relative;
-	left:-200px;
-	padding-right:200px;
 }
 #menu ul{
 	text-decoration:none;
@@ -70,8 +67,6 @@ body{
 	float:right;
 	padding-right:30px;
 	color:white;
-	position:relative;
-
 }
 #menu a{
 	text-decoration:none;
@@ -96,11 +91,9 @@ body{
 	height:200px;
 	margin:25px;
 	top:100px;
-	background-image:url(dropdown.PNG);
+	background-image:url(../dropdown.PNG);
 	background-size:contain;
 	background-repeat:no-repeat;
-	position:relative;
-	top:50px;
 }
 #one:hover{
 	-ms-transform-origin: 50% 50%;
@@ -132,7 +125,7 @@ body{
 	height:200px;
 	margin:25px;
 	top:200px;
-	background-image:url(portfolio.PNG);
+	background-image:url(../portfolio.PNG);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
@@ -152,7 +145,7 @@ body{
 	display: block;
 	height:200px;
 	margin:25px;
-	background-image:url(fluidgrid.PNG);
+	background-image:url(../fluidgrid.PNG);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
@@ -172,7 +165,7 @@ body{
 	display: block;
 	height:200px;
 	margin:25px;
-	background-image:url(holiday.PNG);
+	background-image:url(../holiday.PNG);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
@@ -192,7 +185,7 @@ body{
 	display: block;
 	height:200px;
 	margin:25px;
-	background-image:url(jfk.PNG);
+	background-image:url(../jfk.PNG);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
@@ -212,7 +205,7 @@ body{
 	display: block;
 	height:200px;
 	margin:25px;
-	background-image:url(cars.PNG);
+	background-image:url(../cars.PNG);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
@@ -294,10 +287,6 @@ div.trans:hover{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	width:1000px;
-	position:relative;
-	left:-150px;
-	padding-left:250px;
 }
 #menu {
 	clear: both;
@@ -305,14 +294,6 @@ div.trans:hover{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	position:relative;
-	right:0px;
-	top:0px;
-	width:100%;
-	width:700px;
-	position:relative;
-	left:-250px;
-	padding-right:250px;
 }
 #content {
 	clear: both;
@@ -327,9 +308,6 @@ div.trans:hover{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	position:relative;
-	right:-100px;
-	top:50px;
 }
 #two {
 	clear: both;
@@ -337,9 +315,6 @@ div.trans:hover{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	position:relative;
-	right:-100px;
-	top:50px;
 }
 #three {
 	clear: both;
@@ -347,9 +322,6 @@ div.trans:hover{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	position:relative;
-	right:-100px;
-	top:50px;
 }
 #four {
 	clear: both;
@@ -357,9 +329,6 @@ div.trans:hover{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	position:relative;
-	right:-100px;
-	top:50px;
 }
 #five {
 	clear: both;
@@ -367,9 +336,6 @@ div.trans:hover{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	position:relative;
-	right:-100px;
-	top:50px;
 }
 #six {
 	clear: both;
@@ -377,9 +343,6 @@ div.trans:hover{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	position:relative;
-	right:-100px;
-	top:50px;
 }
 #footer {
 	clear: both;
@@ -420,6 +383,7 @@ div.trans:hover{
 	margin-left: 0;
 	width: 38.7755%;
 	display: block;
+	posisition:relative;
 	margin-left:100px;
 }
 #menu {
@@ -428,9 +392,6 @@ div.trans:hover{
 	margin-left: 2.0408%;
 	width: 38.7755%;
 	display: block;
-	position:relative;
-	top:-70px;
-	left:700px;
 }
 #content {
 	clear: both;
@@ -445,9 +406,6 @@ div.trans:hover{
 	margin-left:  10.204%;
 	width: 38.7755%;
 	display: block;
-	position:relative;
-	right:0px;
-	top:50px;
 }
 
 #one img:hover{
@@ -464,9 +422,6 @@ div.trans:hover{
 	margin-left: 2.0408%;
 	width: 38.7755%;
 	display: block;
-	position:relative;
-	right:0px;
-	top:50px;
 }
 #two img:hover{
 	-ms-transform-origin: 50% 50%;
@@ -482,9 +437,6 @@ div.trans:hover{
 	margin-left: 10.204%;
 	width: 38.7755%;
 	display: block;
-	position:relative;
-	right:0px;
-	top:50px;
 }
 #three img:hover{
 	-ms-transform-origin: 50% 50%;
@@ -500,9 +452,6 @@ div.trans:hover{
 	margin-left: 2.0408%;
 	width: 38.7755%;
 	display: block;
-	position:relative;
-	right:0px;
-	top:50px;
 }
 #four img:hover{
 	-ms-transform-origin: 50% 50%;
@@ -518,9 +467,6 @@ div.trans:hover{
 	margin-left: 2.0408%;
 	width: 38.7755%;
 	display: block;
-	position:relative;
-	right:0px;
-	top:50px;
 }
 #five img:hover{
 	-ms-transform-origin: 50% 50%;
@@ -536,9 +482,6 @@ div.trans:hover{
 	margin-left: 10.204%;
 	width: 38.7755%;
 	display: block;
-	position:relative;
-	right:0px;
-	top:50px;
 }
 #six img:hover{
 	-ms-transform-origin: 50% 50%;
@@ -573,3 +516,45 @@ div.trans:hover{
 	
 }
 }
+/*
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.background {
+  background: url(klematis.jpg) repeat;
+
+}
+
+div.transbox {
+  margin: 0px;
+  background-color: grey;
+  border: 1px solid;
+opacity:0;
+filter:alpha(opacity=0);
+  
+}
+
+div.transbox:hover {
+
+opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */}
+/*
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+</div>
+
+</body>
+</html>
+*/
