@@ -28,6 +28,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 </head>
 <body>
 <div class="gridContainer clearfix">
+
 <div id="slideshow"></div>
 <div id="top">
 <div id="header">
@@ -36,13 +37,18 @@ Do the following if you're using your customized build of modernizr (http://www.
   <div id="menu">
   	<ul>
     	<li><a href= "#footer">About Me</a></li>
-        <li><a href = "#">Grades</a></li>
-        <li><a href = "#">Work</a></li>
+        <li><a href = "grades.html">Grades</a></li>
+        <li><a href = "index.html">Work</a></li>
     </ul>
   </div>
-  </div>
+</div>
+  <!-- TemplateBeginEditable name="head" -->
 <div id="content">
-  <div id="one"><a href = "http://drewd12.github.io/DropDown.html"><div class ="trans"><p><b>Dropdown</b></p></div></a></div>
+<div id="one"><a href = "http://drewd12.github.io/DropDown.html">
+  <div class ="trans">
+    <p><b>Dropdown</b></p>
+  </div>
+</a></div>
   <div id="two"><a href = "http://drewd12.github.io/index.html"><div class = "trans"><p><b>Portfolio</b></p></div></a></div>
   <div id="three"><a href = "http://drewd12.github.io/FluidGrid/FluidGrid.html"><div class = "trans"><p><b>Fluid Grid</b></p></div></a></div>
   <div id="four"><a href = "http://drewd12.github.io/Holiday/index.html"><div class = "trans"><p><b>Holiday</b></p></div></a></div>
@@ -53,6 +59,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 </p></div>
 </div>
+<!-- TemplateEndEditable -->
 
 </body>
 </html>

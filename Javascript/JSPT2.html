@@ -8,23 +8,34 @@ function display(tier){
 	switch(tier){
 case .1:
 
-	document.getElementById("demo").innerHTML = "tier 1";
+	document.getElementById("demo").innerHTML = "<li>League of Legends</li><li>Bones</li><li>Supernatural</li>";
+	document.getElementById("demo").style.color = "green";
 	break;
 	
 case .2:
 
-	document.getElementById("demo").innerHTML = "tier 2";
+	document.getElementById("demo").innerHTML = "<li>Hecarim</li><li>School</li><li>Beale</li>";
+	document.getElementById("demo").style.color = "red";
+	break;
+	
+case .3:
+
+	document.getElementById("demo").innerHTML = ""
 	break;
 	}
 }
+
 </script>
 </head>
 
 <body>
+<h1>Drew Donovan</h1>
+<button onclick="display(0.3)">
+No List</button>
 <button onclick="display(0.1)">
-Administration</button>
+Likes</button>
 <button onclick="display(0.2)">
-Parents</button>
-<p id = "demo"></p>
+Dislikes</button>
+<ul id = "demo"></ul>
 </body>
 </html>

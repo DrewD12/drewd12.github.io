@@ -44,6 +44,18 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:0px;
+}
+#title #one {
+	height:250px;
+	position:relative;
+	z-index:-1;
+}
+#title #two {
+	height:250px;
+	position:relative;
+	z-index:-1;
 }
 #content {
 	clear: both;
@@ -51,6 +63,8 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-250px;
 }
 #Dyrus {
 	clear: both;
@@ -58,6 +72,18 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-820px;
+	right:-30px;
+}
+#Dyrus1{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	position:relative;
+	top:-250px;
 }
 #Bjerg {
 	clear: both;
@@ -65,6 +91,18 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-815px;
+	right:-160px;
+}
+#Bjerg1{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	position:relative;
+	top:-250px;
 }
 #Sant {
 	clear: both;
@@ -72,6 +110,18 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-825px;
+	right:-150px;
+}
+#Sant1{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	position:relative;
+	top:-250px;
 }
 #Wildt {
 	clear: both;
@@ -79,6 +129,18 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-650px;
+	right:-260px;
+}
+#Wildt1{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	position:relative;
+	top:-250px;
 }
 #Lust {
 	clear: both;
@@ -86,6 +148,18 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-850px;
+	right:-325px;
+}
+#Lust1{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	position:relative;
+	top:-250px;
 }
 #teambio {
 	clear: both;
@@ -93,6 +167,11 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	color:white;
+	text-align:center;
+	position:relative;
+	top:-750px;
+
 }
 #bios {
 	clear: both;
@@ -100,7 +179,11 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	color:white;
+	position:relative;
+	top:-250px;
 }
+
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -113,9 +196,11 @@ body{
 #title {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	margin:0;
 	width: 100%;
 	display: block;
+	position:relative;
+	right:-15px;
 }
 #content {
 	clear: both;
@@ -130,13 +215,20 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-820px;
+	right:-60px;
 }
+
 #Bjerg {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-815px;
+	right:-280px;
 }
 #Sant {
 	clear: both;
@@ -144,6 +236,9 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-850px;
+	right:-250px;
 }
 #Wildt {
 	clear: both;
@@ -151,6 +246,9 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-650px;
+	right:-450px;
 }
 #Lust {
 	clear: both;
@@ -158,6 +256,9 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-850px;
+	right:-525px;
 }
 #teambio {
 	clear: both;
@@ -165,6 +266,8 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	position:relative;
+	top:-750px;
 }
 #bios {
 	clear: both;
@@ -172,6 +275,7 @@ body{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	
 }
 
 }
@@ -222,7 +326,7 @@ body{
 	height:750px;
 	position:relative;
 	right:-250px;
-	top:-500px;
+	top:-250px;
 }
 #Dyrus{
 	clear: both;
