@@ -108,7 +108,7 @@ body{
 	-ms-transform: scale(1.05,1.05); /* IE 9 */
     -webkit-transform: scale(1.05,1.05); /* Safari */
     transform: scale(1.05,1.05);
-	background-image:url(dropdown2.PNG);
+	background-image:url(dropdown2.png);
 }
 .trans p{
 	padding-left:10px;
@@ -147,7 +147,7 @@ a{
 	-ms-transform: scale(1.05,1.05); /* IE 9 */
     -webkit-transform: scale(1.05,1.05); /* Safari */
     transform: scale(1.05,1.05);
-	background-image:url(portfolio2.PNG);
+	background-image:url(portfolio2.png);
 }
 #three {
 	clear: both;
@@ -170,7 +170,7 @@ a{
 	-ms-transform: scale(1.05,1.05); /* IE 9 */
     -webkit-transform: scale(1.05,1.05); /* Safari */
     transform: scale(1.05,1.05);
-	background-image:url(fluidgrid2.PNG);
+	background-image:url(fluidgrid2.png);
 }
 #four {
 	clear: both;
@@ -193,7 +193,7 @@ a{
 	-ms-transform: scale(1.05,1.05); /* IE 9 */
     -webkit-transform: scale(1.05,1.05); /* Safari */
     transform: scale(1.05,1.05);
-	background-image:url(holiday2.PNG);
+	background-image:url(holiday2.png);
 }
 #five {
 	clear: both;
@@ -216,7 +216,7 @@ a{
 	-ms-transform: scale(1.05,1.05); /* IE 9 */
     -webkit-transform: scale(1.05,1.05); /* Safari */
     transform: scale(1.05,1.05);
-	background-image:url(jfk2.PNG);
+	background-image:url(jfk2.png);
 	
 }
 #six {
@@ -240,7 +240,7 @@ a{
 	-ms-transform: scale(1.05,1.05); /* IE 9 */
     -webkit-transform: scale(1.05,1.05); /* Safari */
     transform: scale(1.05,1.05);
-	background-image:url(cars2.PNG);
+	background-image:url(cars2.png);
 }
 div.trans{
 	opacity:0;
