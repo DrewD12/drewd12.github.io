@@ -3,28 +3,23 @@
 <title>Exam</title>
 <head>
 <script> 
-function display (list) {
-    switch (list) {
-      
-      case .1: 
-      
-        document.GetElementById("demo").innerHTML = "<li>League of Legends</li><li>Bones</li><li>Supernatural</li>";
-        document.GetElementById("demo").style.color = "green";
-        break;
-      
-      case .2:
-      
-        document.GetElementById("demo").innerHTML = "<li>School</li><li>Homework</li><li>Tests</li>";
-        document.GetElementById("demo").style.color = "red";
-        break; 
-        
-      case .3: 
-      
-        document.GetElementById("demo").innerHTML = "";
-        break;
-        
-      }
-    }
+function display(list){
+	switch(list){
+case .1:
+	document.getElementById("demo").innerHTML = "<li>League of Legends</li><li>Bones</li><li>Supernatural</li>";
+	document.getElementById("demo").style.color = "green";
+	break;
+	
+case .2:
+	document.getElementById("demo").innerHTML = "<li>School</li><li>Tests</li><li>Homework</li>";
+	document.getElementById("demo").style.color = "red";
+	break;
+	
+case .3:
+	document.getElementById("demo").innerHTML = ""
+	break;
+	}
+}
     </script>
     </head>
     <body>
