@@ -5,17 +5,21 @@
 <script> 
 function display(list){
 	switch(list){
-case .1:
+
+case 1:
+
 	document.getElementById("demo").innerHTML = "<li>League of Legends</li><li>Bones</li><li>Supernatural</li>";
 	document.getElementById("demo").style.color = "green";
 	break;
 	
-case .2:
+case 2:
+
 	document.getElementById("demo").innerHTML = "<li>School</li><li>Tests</li><li>Homework</li>";
 	document.getElementById("demo").style.color = "red";
 	break;
 	
-case .3:
+case 3:
+
 	document.getElementById("demo").innerHTML = ""
 	break;
 	}
@@ -24,9 +28,9 @@ case .3:
     </head>
     <body>
     <h1>Drew Donovan</h1>
-    <button onclick = "display(0.3)">No list</button>
-    <button onclick = "display(0.1)">Likes</button>
-    <button onclick = "display(0.2)">Dislikes</button>
+    <button onclick = "display(3)">No list</button>
+    <button onclick = "display(1)">Likes</button>
+    <button onclick = "display(2)">Dislikes</button>
     <ul id = "demo"></ul>
     </body>
     </html>
